@@ -1,0 +1,214 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-right:60px;
+    box-shadow: 0 3px 3px -2px rgb(46, 165, 42);
+    background-color: rgb(75, 219, 75);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: rgb(253, 252, 253);
+    font-size:large;
+    height:10px;  
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    list-style: none;
+    color: rgb(244, 246, 244);
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 100px;
+    padding-left:px; 
+}
+.menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    
+}
+.menu hr{
+    border: none;
+    width: 90%;
+    height: 3px;
+    border-radius: 10px;
+    background: rgb(21, 21, 21);
+}
+
+.navbutton{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 1250px;
+    background-color: rgb(75, 219, 75);
+    height:20;
+
+}
+.navbutton button{
+    height: 30px;
+    width: 90px;
+    border: 3px solid rgb(249, 247, 247);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(14, 184, 14);
+    cursor: pointer;
+    color: rgb(252, 251, 251);
+    padding-bottom: 30px;
+    
+}
+.navbutton button:active{
+    background: rgb(253, 252, 252);
+    color: rgb(48, 165, 42);
+}
+.likecart{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.icon{
+    height: 45px;
+    width: 45px;
+}
+.background-image {
+    background-size: cover;
+    background-position: center;
+    height: 800px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #faf7f7;
+}
+.linkimage{
+    justify-content: space-around;
+    display: flex;
+}
+.linkimage img{
+    cursor: pointer;
+    border-radius: 15px;
+}
+.linkimage img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sub{
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(6, 4, 1);
+
+}
+.vicks{
+    cursor: pointer;
+    border-radius: 60px;
+}   
+.vicks img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.topic{
+    padding-right: 600px;
+}
+/* Style for the Shop Now page */
+
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* Style for the product cards */
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the shopping cart */
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 8px;
+  }
+  .product-list{
+    display: flex;
+
+  }
+  .shop-now{
+    padding-bottom: 20;
+  }
+  .hari{
+    width:1535px;
+    height:auto;
+  }
+  .logo{
+    background-color: rgb(75, 219, 75);
+    padding-left: 10%;
+
+  } 
+  .logo :hover{
+    cursor: pointer;
+  }
+  /* Home.css */
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+  }
+ .sub2{
+    height: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 450px;
+    padding-left: 150px;
+    
+ }
+ .search{
+  background-color: rgb(75, 219, 75);
+  height: 20px;
+  padding-left: 10px;
+
+ }
+ .shop-outer{
+  background-color : coral;
+ }
+ .sub3{
+  padding-right: 85%;
+ }

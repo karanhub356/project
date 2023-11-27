@@ -1,0 +1,23 @@
+/* Slider Container */
+.slider-container {
+    width: 1700px; /* Set your preferred width */
+    
+  }
+  
+  /* Slider Wrapper */
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Individual Slider Item */
+  .slider-item {
+    flex: 0 0 auto;
+  }
+  
+  /* Image Styles */
+  .slider-item img {
+    width: 100%;
+    height: auto;
+  }
+  

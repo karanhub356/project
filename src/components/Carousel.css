@@ -1,0 +1,49 @@
+/* Add your global styles here, if any */
+
+/* Carousel container styles */
+.slick-slider {
+    width: 80%; /* Set the desired width */
+    margin: auto;
+  }
+  
+  /* Individual slide styles */
+  .slick-slide {
+    padding: 10px; /* Adjust spacing between slides */
+  }
+  
+  /* Image styles */
+  .goat,
+  .sheep {
+    width: 100%; /* Ensure images fill their container */
+    border-radius: 5px; /* Add rounded corners if desired */
+  }
+  
+  /* Dot styles (pagination indicators) */
+  .slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0; /* Adjust margin as needed */
+    padding: 0;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px; /* Adjust spacing between dots */
+  }
+  
+  .slick-dots button {
+    font-size: 0; /* Hide the default dot content */
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #bbb; /* Set the color of inactive dots */
+    cursor: pointer;
+  }
+  
+  .slick-dots button:hover,
+  .slick-dots button.slick-active {
+    background-color: #333; /* Set the color of active dots on hover */
+  }
+  
